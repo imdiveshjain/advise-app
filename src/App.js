@@ -5,7 +5,7 @@ import Message from './Message';
 function App() { 
   const [advice, setAdvice] = useState(""); 
   const [adviceCount, setAdviceCount] = useState(0);
-  
+   
   async function getAdvice() {
       const res = await fetch("https://api.adviceslip.com/advice");
       const data = await res.json();
