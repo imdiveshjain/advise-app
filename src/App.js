@@ -3,7 +3,7 @@ import './App.css';
 import Message from './Message';
 
 function App() {
-  const [advice, setAdvice] = useState("");
+  const [advice, setAdvice] = useState(""); 
   const [adviceCount, setAdviceCount] = useState(0);
 
   async function getAdvice() {
