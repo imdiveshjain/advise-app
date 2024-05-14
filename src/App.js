@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import './App.css';
 import Message from './Message';
 
-function App() {
+function App() { 
   const [advice, setAdvice] = useState(""); 
   const [adviceCount, setAdviceCount] = useState(0);
 
