@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import Message from './Message';
+import Message from './Message'; 
 
 function App() { 
   const [advice, setAdvice] = useState(""); 
